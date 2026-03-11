@@ -1,4 +1,4 @@
-# Hi 👋 I'm Sanjana Bharadwaj
+# Hi 👋 I'm Sanjana Bhardwaj
 
 💻 Computer Science Student  
 🚀 Full Stack Developer | Python Developer  
