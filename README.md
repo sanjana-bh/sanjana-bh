@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi 👋 I'm Sanjana Bharadwaj
 
-<!--
-**sanjana-bh/sanjana-bh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Computer Science Student  
+🚀 Full Stack Developer | Python Developer  
+📍 India  
 
-Here are some ideas to get you started:
+## 🔧 Skills
+- Python
+- OpenCV
+- MERN Stack (MongoDB, Express, React, Node.js)
+- MySQL
+- HTML, CSS, JavaScript
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 Projects
+
+### EDUCARE – Online Learning Management System
+Built a full-stack LMS using MERN stack where students can enroll in courses, make payments, and submit reviews.
+
+### Facial Recognition Attendance System
+Automated attendance system using Python, OpenCV and face recognition.
+
+## 📫 Connect With Me
+- GitHub: https://github.com/sanjana-bh
+- LinkedIn: https://www.linkedin.com/in/sanjana-b-28b39230b
