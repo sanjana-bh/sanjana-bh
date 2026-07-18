@@ -73,7 +73,13 @@ Terminal-inspired developer portfolio with a CLI-style interface, dynamic compon
 
 <div align="center">
 
-[🌐 Live Demo](https://sanjana-portfolio-seven.vercel.app/) · [💻 Source Code](https://github.com/sanjana-bh/sanjana-portfolio)
+<a href="https://sanjana-portfolio-seven.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-3B82F6?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+</a>
+
+<a href="https://github.com/sanjana-bh/sanjana-portfolio">
+  <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+</a>
 
 </div>
 
