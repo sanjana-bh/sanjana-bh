@@ -17,6 +17,9 @@
 
 <br/>
 
+## 🧠 Who I Am
+
+```typescript
 const sanjana = {
   title: "Data Analytics Enthusiast / Aspiring Analyst",
   stack: {
@@ -43,7 +46,7 @@ const sanjana = {
   status: "BSc Computer Science student @ University of Mumbai",
   openTo: ["Data Analytics roles", "Freelance web development"],
 };
-
+```
 
 <br/>
 
