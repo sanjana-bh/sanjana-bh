@@ -58,7 +58,7 @@ Terminal-inspired developer portfolio with a CLI-style interface, dynamic compon
 
 <div align="center">
   <a href="https://github.com/sanjana-bh/sanjana-portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sanjana-bh&repo=sanjana-portfolio&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=c0caf5&bg_color=1a1b27" alt="Personal Developer Portfolio" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sanjana-bh&repo=sanjana-portfolio&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=c0caf5&bg_color=1a1b27&cache_seconds=86400" alt="Personal Developer Portfolio" />
   </a>
 </div>
 
@@ -108,8 +108,8 @@ Terminal-inspired developer portfolio with a CLI-style interface, dynamic compon
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sanjana-bh&show_icons=true&theme=nord&border_color=3B82F6&title_color=3B82F6&icon_color=3B82F6&text_color=c0caf5&bg_color=1a1b27" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjana-bh&layout=compact&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=c0caf5&bg_color=1a1b27" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sanjana-bh&show_icons=true&theme=nord&border_color=3B82F6&title_color=3B82F6&icon_color=3B82F6&text_color=c0caf5&bg_color=1a1b27&cache_seconds=86400" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjana-bh&layout=compact&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=c0caf5&bg_color=1a1b27&cache_seconds=86400" alt="Top Languages" height="165"/>
 </div>
 
 <div align="center">
