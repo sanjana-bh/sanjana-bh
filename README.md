@@ -58,7 +58,9 @@ Terminal-inspired developer portfolio with a CLI-style interface, dynamic compon
 
 <div align="center">
   <a href="https://github.com/sanjana-bh/sanjana-portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sanjana-bh&repo=sanjana-portfolio&theme=nord&border_color=3B82F6&title_color=3B82F6&text_color=c0caf5&bg_color=1a1b27&cache_seconds=86400" alt="Personal Developer Portfolio" />
+    <img src="https://raw.githubusercontent.com/sanjana-bh/sanjana-portfolio/main/public/projects/portfolio.png"
+         alt="Portfolio Preview"
+         width="100%">
   </a>
 </div>
 
