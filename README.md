@@ -135,7 +135,7 @@ Terminal-inspired developer portfolio with a CLI-style interface, dynamic compon
 <a href="https://www.linkedin.com/in/sanjana-b-28b39230b">
   <img src="https://img.shields.io/badge/LinkedIn-3B82F6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="mailto:sanjanabharadwaj060505@gmail.com">
+<a href="https://mail.google.com/mail/?view=cm&to=sanjanabharadwaj060505@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
 </a>
 <a href="https://sanjana-portfolio-seven.vercel.app/">
