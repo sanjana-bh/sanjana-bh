@@ -133,9 +133,9 @@ or building learning management systems.
   <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Cloud_Counselage-3B82F6?style=for-the-badge&logo=cloud&logoColor=white" />
+      <img src="https://img.shields.io/badge/Deliotte Data Analysis-3B82F6?style=for-the-badge&logo=cloud&logoColor=white" />
       <br/>
-      <sub>Online Internship Program</sub>
+      <sub>Job Simulation - Forage</sub>
     </td>
     <td align="center" width="33%">
       <img src="https://img.shields.io/badge/Data_Structures-3B82F6?style=for-the-badge&logo=code&logoColor=white" />
