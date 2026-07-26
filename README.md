@@ -42,7 +42,6 @@
 <tr>
 <td width="60%" valign="top">
 
-```yaml
 Data Analytics Professional
 ─────────────────────────────
 📍 Location:     Mumbai, India
@@ -63,8 +62,8 @@ Professional Philosophy:
   "Transforming raw data into meaningful insights
    that drive informed business decisions."
 </td> <td width="40%" valign="top">
-yaml
-Technical Foundation:
+
+  Technical Foundation:
   My Computer Science background provides
   a robust understanding of data architecture
   and systems, enabling me to work effectively
@@ -113,4 +112,4 @@ text
 <a href="https://github.com/sanjana-bh"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjana-bh&bg_color=0d1117&color=0EA5E9&line=0EA5E9&point=c9d1d9&area=true&area_color=0EA5E9&hide_border=true&custom_title=📈%20Contribution%20Analytics" width="85%" alt="Activity Graph"/> </a></div><br/> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/> <br/><!-- 🎯 PROFESSIONAL DEVELOPMENT --><h2 align="center">🎯 Continuous Learning & Development</h2> <br/><div align="center"><a href="#"> <img src="https://img.shields.io/badge/📊_Advanced_Analytics-Statistical_Modeling_&_Insights-0EA5E9?style=for-the-badge&labelColor=0f172a"/> </a> &nbsp; <a href="#"> <img src="https://img.shields.io/badge/🤖_Machine_Learning-Python_&_Scikit--learn-0EA5E9?style=for-the-badge&labelColor=0f172a"/> </a> &nbsp; <a href="#"> <img src="https://img.shields.io/badge/☁️_Cloud_Platforms-Vercel_&_Data_Services-0EA5E9?style=for-the-badge&labelColor=0f172a"/> </a></div><br/> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/> <br/><!-- 🏆 ACHIEVEMENTS --><h2 align="center">🏆 GitHub Achievements</h2> <br/><div align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src="https://github-profile-trophy.vercel.app/?username=sanjana-bh&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" width="100%"/> </a></div><br/> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/> <br/><!-- 🤝 PROFESSIONAL NETWORK --><h2 align="center">🤝 Professional Network</h2> <br/><div align="center"><a href="https://www.linkedin.com/in/sanjana-b-28b39230b" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-Professional_Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f172a" alt="LinkedIn"/> </a> &nbsp; <a href="mailto:sanjanabharadwaj060505@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" alt="Email"/> </a> &nbsp; <a href="https://sanjana-portfolio-seven.vercel.app/" target="_blank"> <img src="https://img.shields.io/badge/Portfolio-View_Work-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a" alt="Portfolio"/> </a></div><br/> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/> <br/><!-- 💡 PROFESSIONAL INSIGHT --><div align="center"> <h3>💡 Data Science Wisdom</h3> <br/> <a href="https://github.com/sanjana-bh"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Professional Quote" width="70%"/> </a></div><br/> <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/> <br/><div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,100:0EA5E9&height=120&section=footer&animation=twinkling" width="100%"/> <br/>
 <sub>© 2026 Sanjana Bhardwaj — Data Analytics Professional | Built with Purpose & Precision</sub>
 
-</div> ```
+</div>
