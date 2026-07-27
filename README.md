@@ -143,7 +143,7 @@ Remote · June 2026
 
 <div align="center">
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME" target="_blank">
+<a href="https://github.com/sanjana-bh" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-10253A?style=for-the-badge&logo=github&logoColor=white"/>
 </a>&nbsp;
 <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank">
