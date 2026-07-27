@@ -70,13 +70,13 @@
 │  > _                                                           │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
-
+```
 </div><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=10,12,14,16,18&height=2&width=100%"/>
 <!-- 👤 ABOUT ME SECTION --><h2 align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=0EA5E9&center=true&vCenter=true&width=400&lines=🧠+ABOUT+THE+ANALYST" alt="About The Analyst"/> </h2>
 <table> <tr> <td width="50%" valign="top">
 🎯 Who I Am
 
-text
+```text
 name:         Sanjana Bhardwaj
 role:         📊 Data Analyst & BI Developer
 location:     Mumbai, India 🇮🇳
@@ -93,6 +93,7 @@ core_focus:
 
 philosophy:
   "Turning raw data into actionable business insights"
+```
 </td> <td width="50%" valign="top">
 🚀 Technical Summary
 
