@@ -1,66 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
   <defs>
-    <!-- Premium Animated Gradient -->
-    <linearGradient id="premiumGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#667eea">
-        <animate attributeName="stop-color" values="#667eea;#764ba2;#f093fb;#667eea" dur="6s" repeatCount="indefinite"/>
+    <!-- Muted Rose Animated Gradient -->
+    <linearGradient id="mutedRoseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C75D74">
+        <animate attributeName="stop-color" values="#C75D74;#A8556E;#E6A4B4;#C75D74" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" style="stop-color:#764ba2">
-        <animate attributeName="stop-color" values="#764ba2;#f093fb;#667eea;#764ba2" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" style="stop-color:#A8556E">
+        <animate attributeName="stop-color" values="#A8556E;#E6A4B4;#C75D74;#A8556E" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" style="stop-color:#f093fb">
-        <animate attributeName="stop-color" values="#f093fb;#667eea;#764ba2;#f093fb" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" style="stop-color:#E6A4B4">
+        <animate attributeName="stop-color" values="#E6A4B4;#C75D74;#A8556E;#E6A4B4" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     
-    <!-- Text Shadow -->
+    <!-- 3D Text Shadow -->
     <filter id="textShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#667eea" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#C75D74" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#A8556E" flood-opacity="0.2"/>
     </filter>
-  </defs>
-  
-  <!-- Clean Background -->
-  <rect width="100%" height="100%" fill="#0d1117"/>
-  
-  <!-- Subtle Grid Pattern -->
-  <defs>
+
+    <!-- Glow Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Grid Pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2937" stroke-width="0.5" opacity="0.3"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+
+    <!-- Decorative Dot Pattern -->
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#C75D74" opacity="0.1"/>
     </pattern>
   </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0F172A"/>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
   <rect width="100%" height="100%" fill="url(#grid)"/>
   
-  <!-- Accent Line Top -->
-  <rect x="0" y="0" width="900" height="3" fill="url(#premiumGradient)"/>
+  <!-- Accent Line Top - Thicker & More Elegant -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#mutedRoseGradient)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </rect>
   
-  <!-- Main Name Text -->
-  <g filter="url(#textShadow)">
-    <text x="450" y="75" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="48" font-weight="700" fill="url(#premiumGradient)" letter-spacing="3">
-      SAMAD SHAIKH
+  <!-- Decorative Corner Elements -->
+  <rect x="20" y="20" width="30" height="2" fill="#C75D74" opacity="0.4"/>
+  <rect x="20" y="20" width="2" height="30" fill="#C75D74" opacity="0.4"/>
+  <rect x="850" y="20" width="30" height="2" fill="#C75D74" opacity="0.4"/>
+  <rect x="878" y="20" width="2" height="30" fill="#C75D74" opacity="0.4"/>
+  
+  <!-- Floating Hearts Animation -->
+  <g opacity="0.3">
+    <text x="80" y="40" font-size="14" fill="#E6A4B4">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="820" y="160" font-size="12" fill="#C75D74">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-8;0,0" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="760" y="30" font-size="10" fill="#A8556E">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-12;0,0" dur="5s" repeatCount="indefinite"/>
+    </text>
+    <text x="100" y="165" font-size="11" fill="#E6A4B4">
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-9;0,0" dur="4.5s" repeatCount="indefinite"/>
     </text>
   </g>
   
+  <!-- Main Name - SANJANA BHARDWAJ -->
+  <g filter="url(#textShadow)">
+    <text x="450" y="78" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="46" font-weight="800" fill="url(#mutedRoseGradient)" letter-spacing="4">
+      SANJANA BHARDWAJ
+    </text>
+  </g>
+  
+  <!-- Decorative Underline -->
+  <rect x="250" y="90" width="400" height="2" fill="url(#mutedRoseGradient)" opacity="0.5" rx="1">
+    <animate attributeName="width" values="400;350;400" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  
   <!-- Subtitle -->
-  <text x="450" y="115" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="16" fill="#9ca3af" letter-spacing="4">
-    SOFTWARE ENGINEER  •  FULL-STACK DEVELOPER  •  AI &amp; LLM SPECIALIST
+  <text x="450" y="118" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="15" fill="#94A3B8" letter-spacing="5" font-weight="300">
+    💻 FULL-STACK DEVELOPER  •  🎨 UI/UX ENTHUSIAST  •  🚀 PROBLEM SOLVER
   </text>
   
-  <!-- Decorative Elements -->
-  <g opacity="0.6">
-    <line x1="120" y1="140" x2="380" y2="140" stroke="url(#premiumGradient)" stroke-width="1">
-      <animate attributeName="x2" values="120;380" dur="1s" fill="freeze"/>
-    </line>
-    <line x1="520" y1="140" x2="780" y2="140" stroke="url(#premiumGradient)" stroke-width="1">
-      <animate attributeName="x1" values="780;520" dur="1s" fill="freeze"/>
+  <!-- Decorative Elements - Left Side -->
+  <g opacity="0.5">
+    <line x1="130" y1="142" x2="370" y2="142" stroke="url(#mutedRoseGradient)" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="x2" values="130;370" dur="1.5s" fill="freeze"/>
     </line>
   </g>
   
-  <!-- Center Diamond -->
-  <polygon points="450,135 458,145 450,155 442,145" fill="url(#premiumGradient)" opacity="0.8">
-    <animateTransform attributeName="transform" type="rotate" from="0 450 145" to="360 450 145" dur="10s" repeatCount="indefinite"/>
-  </polygon>
+  <!-- Decorative Elements - Right Side -->
+  <g opacity="0.5">
+    <line x1="530" y1="142" x2="770" y2="142" stroke="url(#mutedRoseGradient)" stroke-width="1.5" stroke-linecap="round">
+      <animate attributeName="x1" values="770;530" dur="1.5s" fill="freeze"/>
+    </line>
+  </g>
   
-  <!-- Accent Line Bottom -->
-  <rect x="0" y="177" width="900" height="3" fill="url(#premiumGradient)"/>
+  <!-- Center Diamond with Rotating Animation -->
+  <g filter="url(#glow)">
+    <polygon points="450,136 458,146 450,156 442,146" fill="url(#mutedRoseGradient)" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 146" to="360 450 146" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+    <!-- Inner diamond -->
+    <polygon points="450,140 454,146 450,152 446,146" fill="#0F172A" opacity="0.6">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 146" to="-360 450 146" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+  
+  <!-- Small Decorative Dots -->
+  <circle cx="200" cy="145" r="2" fill="#E6A4B4" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="145" r="2" fill="#C75D74" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="340" cy="130" r="1.5" fill="#A8556E" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="560" cy="130" r="1.5" fill="#E6A4B4" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="177" width="900" height="3" fill="url(#mutedRoseGradient)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Bottom Corner Elements -->
+  <rect x="20" y="158" width="30" height="2" fill="#C75D74" opacity="0.4"/>
+  <rect x="48" y="148" width="2" height="30" fill="#C75D74" opacity="0.4"/>
+  <rect x="850" y="158" width="30" height="2" fill="#C75D74" opacity="0.4"/>
+  <rect x="850" y="148" width="2" height="30" fill="#C75D74" opacity="0.4"/>
 </svg>
