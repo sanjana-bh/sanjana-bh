@@ -1,22 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="40" viewBox="0 0 320 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="50" viewBox="0 0 340 50">
   <defs>
-    <linearGradient id="sectionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#667eea"/>
-      <stop offset="100%" style="stop-color:#764ba2"/>
+    <!-- Muted Rose Animated Gradient -->
+    <linearGradient id="mutedRoseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C75D74">
+        <animate attributeName="stop-color" values="#C75D74;#E6A4B4;#A8556E;#C75D74" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="30%" style="stop-color:#A8556E">
+        <animate attributeName="stop-color" values="#A8556E;#C75D74;#E6A4B4;#A8556E" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="70%" style="stop-color:#E6A4B4">
+        <animate attributeName="stop-color" values="#E6A4B4;#A8556E;#C75D74;#E6A4B4" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#C75D74">
+        <animate attributeName="stop-color" values="#C75D74;#E6A4B4;#A8556E;#C75D74" dur="4s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Sparkle Gradient -->
+    <radialGradient id="sparkleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E6A4B4;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C75D74;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Icon Glow -->
+    <radialGradient id="iconGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E6A4B4;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#A8556E;stop-opacity:0"/>
+    </radialGradient>
   </defs>
-  
+
   <rect width="100%" height="100%" fill="transparent"/>
-  
-  <!-- Icon -->
-  <text x="5" y="28" font-size="20">🎮</text>
-  
-  <!-- Text -->
-  <text x="35" y="27" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="url(#sectionGrad)">
-    Contribution Showcase
+
+  <!-- Floating Sparkles -->
+  <circle cx="12" cy="8" r="2" fill="#E6A4B4" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;2.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="35" cy="5" r="1.5" fill="#C75D74" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.7;0.1" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="0.5;2;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="6" r="2" fill="#E6A4B4" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;2.5;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="325" cy="42" r="1.5" fill="#A8556E" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="0.5;2;0.5" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="4" r="1" fill="#C75D74" opacity="0.4">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="0.5;1.5;0.5" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Icon Glow Background -->
+  <circle cx="18" cy="22" r="14" fill="url(#iconGlow)">
+    <animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Icon with Pulse & Bounce Animation -->
+  <g filter="url(#glow)">
+    <text x="8" y="29" font-size="20">
+      🎮
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0;0,-2;0,0" dur="3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Text with Shadow & Pulse -->
+  <g filter="url(#glow)">
+    <text x="38" y="28" font-family="'Georgia', 'Segoe UI', serif" font-size="18" font-weight="700" fill="url(#mutedRoseGrad)" letter-spacing="2">
+      Contribution Showcase
+      <animate attributeName="font-size" values="18;19.5;18" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="letter-spacing" values="2;3;2" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Animated Underline with Gradient -->
+  <rect x="38" y="35" width="195" height="2.5" fill="url(#mutedRoseGrad)" rx="1.5">
+    <animate attributeName="width" values="195;185;200;195" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="38;40;38" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative Star at end of underline -->
+  <g opacity="0.8">
+    <polygon points="233,29 236,33 241,33 237,36 238,41 233,38 228,41 229,36 225,33 230,33" fill="#E6A4B4">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 233 35;360 233 35" dur="6s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Game Controller Buttons Animation -->
+  <g opacity="0.4">
+    <circle cx="255" cy="12" r="2.5" fill="#C75D74">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2;3;2" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="265" cy="12" r="2" fill="#A8556E">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1.5;2.5;1.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="8" r="2" fill="#E6A4B4">
+      <animate attributeName="opacity" values="0.2;0.7;0.2" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="1.5;2.5;1.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating Game Elements -->
+  <text x="280" y="15" font-size="8" opacity="0.3">
+    ⭐
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="2.5s" repeatCount="indefinite"/>
   </text>
-  
-  <!-- Underline -->
-  <rect x="35" y="32" width="180" height="2" fill="url(#sectionGrad)" rx="1"/>
+  <text x="295" y="38" font-size="7" opacity="0.3">
+    🏆
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Small Heart Decoration -->
+  <text x="315" y="18" font-size="10" opacity="0.4">
+    🩷
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Pulsing Background Glow -->
+  <ellipse cx="130" cy="22" rx="150" ry="22" fill="url(#sparkleGrad)" opacity="0.05">
+    <animate attributeName="opacity" values="0.02;0.08;0.02" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="150;165;150" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
 </svg>
