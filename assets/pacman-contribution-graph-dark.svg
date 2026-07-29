@@ -1,122 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1166" height="184" viewBox="0 0 1166 184">
-  <desc>Snake Contribution Graph - Muted Rose Theme for Sanjana Bhardwaj</desc>
-  
+  <desc>Snake Contribution Graph - Muted Rose Theme</desc>
   <rect width="100%" height="100%" fill="#0F172A"/>
-  
-  <!-- Month Labels -->
-  <text x="10" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Jan</text>
-  <text x="98" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Feb</text>
-  <text x="186" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Mar</text>
-  <text x="296" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Apr</text>
-  <text x="384" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">May</text>
-  <text x="472" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Jun</text>
-  <text x="582" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Jul</text>
-  <text x="670" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Aug</text>
-  <text x="780" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Sep</text>
-  <text x="868" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Oct</text>
-  <text x="956" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Nov</text>
-  <text x="1066" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Dec</text>
-  <text x="1154" y="10" text-anchor="middle" font-size="10" fill="#94A3B8">Jan</text>
 
-  <!-- Contribution Cells with Muted Rose Theme -->
-  <!-- Levels: Empty → #1E293B, Low → #C75D74, Medium → #A8556E, High → #E6A4B4 -->
+  <!-- Month Labels -->
+  <g fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="10" text-anchor="middle">
+    <text x="10" y="10">Jan</text>
+    <text x="98" y="10">Feb</text>
+    <text x="186" y="10">Mar</text>
+    <text x="296" y="10">Apr</text>
+    <text x="384" y="10">May</text>
+    <text x="472" y="10">Jun</text>
+    <text x="582" y="10">Jul</text>
+    <text x="670" y="10">Aug</text>
+    <text x="780" y="10">Sep</text>
+    <text x="868" y="10">Oct</text>
+    <text x="956" y="10">Nov</text>
+    <text x="1066" y="10">Dec</text>
+    <text x="1154" y="10">Jan</text>
+  </g>
+
+  <!-- Legend -->
+  <text x="450" y="175" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#94A3B8">
+    Less  🩷  🩷  🩷  More
+  </text>
+
+  <!-- Color Mapping: Empty → #1E293B, Low → #C75D74, Med → #A8556E, High → #E6A4B4 -->
   
-  <!-- All cells use Muted Rose gradient for contribution levels -->
+  <!-- Week 1-2: Empty -->
+  <rect x="0" y="15" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="0" y="37" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="0" y="59" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="0" y="81" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="0" y="103" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="0" y="125" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="0" y="147" width="20" height="20" rx="4" fill="#1E293B"/>
+
+  <rect x="22" y="15" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="22" y="37" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="22" y="59" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="22" y="81" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="22" y="103" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="22" y="125" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="22" y="147" width="20" height="20" rx="4" fill="#1E293B"/>
+
+  <!-- Week 3-4: Low -->
+  <rect x="44" y="15" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="44" y="37" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="44" y="59" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="44" y="81" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="44" y="103" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="44" y="125" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="44" y="147" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+
+  <rect x="66" y="15" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="66" y="37" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="66" y="59" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="66" y="81" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="66" y="103" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="66" y="125" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="66" y="147" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+
+  <!-- Week 5-6: Medium -->
+  <rect x="88" y="15" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="88" y="37" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="88" y="59" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="88" y="81" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="88" y="103" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="88" y="125" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="88" y="147" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+
+  <rect x="110" y="15" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="110" y="37" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="110" y="59" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="110" y="81" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="110" y="103" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="110" y="125" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="110" y="147" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+
+  <!-- Week 7-10: High -->
+  <rect x="132" y="15" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="132" y="37" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="132" y="59" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="132" y="81" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="132" y="103" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="132" y="125" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="132" y="147" width="20" height="20" rx="4" fill="#E6A4B4"/>
+
+  <rect x="154" y="15" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="154" y="37" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="154" y="59" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="154" y="81" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="154" y="103" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="154" y="125" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="154" y="147" width="20" height="20" rx="4" fill="#E6A4B4"/>
+
+  <!-- SNAKE PATTERN - Body with animation -->
+  <rect x="176" y="15" width="20" height="20" rx="4" fill="#C75D74">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="176" y="37" width="20" height="20" rx="4" fill="#A8556E">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="176" y="59" width="20" height="20" rx="4" fill="#E6A4B4">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="176" y="81" width="20" height="20" rx="4" fill="#C75D74">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="176" y="103" width="20" height="20" rx="4" fill="#A8556E">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="176" y="125" width="20" height="20" rx="4" fill="#E6A4B4">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="176" y="147" width="20" height="20" rx="4" fill="#C75D74">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Snake head (bigger and glowing) -->
+  <rect x="198" y="15" width="20" height="20" rx="4" fill="#E6A4B4">
+    <animate attributeName="fill" values="#E6A4B4;#C75D74;#E6A4B4" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="198" y="37" width="20" height="20" rx="4" fill="#C75D74">
+    <animate attributeName="fill" values="#C75D74;#E6A4B4;#C75D74" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="198" y="59" width="20" height="20" rx="4" fill="#A8556E">
+    <animate attributeName="fill" values="#A8556E;#C75D74;#A8556E" dur="1.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Snake body continues -->
+  <rect x="220" y="59" width="20" height="20" rx="4" fill="#E6A4B4">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="242" y="59" width="20" height="20" rx="4" fill="#C75D74">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="1.9s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="264" y="59" width="20" height="20" rx="4" fill="#A8556E">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="286" y="59" width="20" height="20" rx="4" fill="#E6A4B4">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="308" y="59" width="20" height="20" rx="4" fill="#C75D74">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="330" y="59" width="20" height="20" rx="4" fill="#A8556E">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Snake tail fading -->
+  <rect x="352" y="59" width="20" height="20" rx="4" fill="#E6A4B4">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="374" y="59" width="20" height="20" rx="4" fill="#C75D74">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="2.7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- More contribution cells -->
+  <rect x="396" y="15" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="396" y="37" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="396" y="59" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="396" y="81" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="396" y="103" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="396" y="125" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="396" y="147" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+
+  <rect x="418" y="15" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="418" y="37" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="418" y="59" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="418" y="81" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="418" y="103" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="418" y="125" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="418" y="147" width="20" height="20" rx="4" fill="#1E293B"/>
+
+  <rect x="440" y="15" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="440" y="37" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="440" y="59" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="440" y="81" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="440" y="103" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="440" y="125" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="440" y="147" width="20" height="20" rx="4" fill="#1E293B"/>
+
+  <!-- Rest of weeks - simplified pattern -->
+  <rect x="462" y="15" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="462" y="37" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  <rect x="462" y="59" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="462" y="81" width="20" height="20" rx="4" fill="#1E293B"/>
+  <rect x="462" y="103" width="20" height="20" rx="4" fill="#A8556E" opacity="0.7"/>
+  <rect x="462" y="125" width="20" height="20" rx="4" fill="#E6A4B4"/>
+  <rect x="462" y="147" width="20" height="20" rx="4" fill="#C75D74" opacity="0.5"/>
+  
+  <!-- Weeks 24-53: Automated pattern -->
+  <g fill="#1E293B">
+    <rect x="484" y="15" width="20" height="20" rx="4"/>
+    <rect x="484" y="37" width="20" height="20" rx="4"/>
+    <rect x="484" y="59" width="20" height="20" rx="4"/>
+    <rect x="484" y="81" width="20" height="20" rx="4"/>
+    <rect x="484" y="103" width="20" height="20" rx="4"/>
+    <rect x="484" y="125" width="20" height="20" rx="4"/>
+    <rect x="484" y="147" width="20" height="20" rx="4"/>
+  </g>
+
+  <!-- Heart and rose decorations -->
+  <text x="1140" y="170" font-size="14" fill="#E6A4B4" opacity="0.4">🩷</text>
+  <text x="20" y="170" font-size="12" fill="#C75D74" opacity="0.3">🌸</text>
+  
+  <!-- Gradient line separator -->
+  <rect x="50" y="170" width="1066" height="1" fill="url(#snakeGrad)" opacity="0.1" rx="0.5"/>
+
   <defs>
-    <linearGradient id="snakeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="snakeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#C75D74"/>
       <stop offset="50%" style="stop-color:#A8556E"/>
       <stop offset="100%" style="stop-color:#E6A4B4"/>
     </linearGradient>
-    
-    <linearGradient id="snakeHead" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#E6A4B4"/>
-      <stop offset="100%" style="stop-color:#C75D74"/>
-    </linearGradient>
   </defs>
-
-  <!-- Empty cells -->
-  <rect x="0" y="15" width="20" height="20" rx="5" fill="#1E293B"/>
-  <rect x="22" y="15" width="20" height="20" rx="5" fill="#1E293B"/>
-  
-  <!-- Low contribution cells -->
-  <rect x="44" y="15" width="20" height="20" rx="5" fill="#C75D74" opacity="0.6"/>
-  <rect x="66" y="15" width="20" height="20" rx="5" fill="#C75D74" opacity="0.6"/>
-  
-  <!-- Medium contribution cells -->
-  <rect x="88" y="15" width="20" height="20" rx="5" fill="#A8556E" opacity="0.8"/>
-  <rect x="110" y="15" width="20" height="20" rx="5" fill="#A8556E" opacity="0.8"/>
-  
-  <!-- High contribution cells -->
-  <rect x="132" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  <rect x="154" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  
-  <!-- Snake path - simplified version -->
-  <!-- Snake Body -->
-  <rect x="176" y="15" width="20" height="20" rx="5" fill="#C75D74"/>
-  <rect x="198" y="15" width="20" height="20" rx="5" fill="#A8556E"/>
-  <rect x="220" y="15" width="20" height="20" rx="5" fill="#C75D74"/>
-  <rect x="242" y="15" width="20" height="20" rx="5" fill="#A8556E"/>
-  <rect x="264" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  <rect x="286" y="15" width="20" height="20" rx="5" fill="#C75D74"/>
-  <rect x="308" y="15" width="20" height="20" rx="5" fill="#A8556E"/>
-  <rect x="330" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  
-  <!-- Snake Head (distinct) -->
-  <rect x="352" y="15" width="20" height="20" rx="5" fill="url(#snakeHead)">
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
-  </rect>
-  
-  <!-- Snake Body continues -->
-  <rect x="374" y="15" width="20" height="20" rx="5" fill="#A8556E"/>
-  <rect x="396" y="15" width="20" height="20" rx="5" fill="#C75D74"/>
-  <rect x="418" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  <rect x="440" y="15" width="20" height="20" rx="5" fill="#A8556E"/>
-  <rect x="462" y="15" width="20" height="20" rx="5" fill="#C75D74"/>
-  <rect x="484" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  
-  <!-- Snake tail with animation -->
-  <rect x="506" y="15" width="20" height="20" rx="5" fill="#A8556E">
-    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="1.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="528" y="15" width="20" height="20" rx="5" fill="#C75D74">
-    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.8s" repeatCount="indefinite"/>
-  </rect>
-  
-  <!-- More contribution cells -->
-  <rect x="550" y="15" width="20" height="20" rx="5" fill="#1E293B"/>
-  <rect x="572" y="15" width="20" height="20" rx="5" fill="#1E293B"/>
-  <rect x="594" y="15" width="20" height="20" rx="5" fill="#C75D74" opacity="0.6"/>
-  <rect x="616" y="15" width="20" height="20" rx="5" fill="#A8556E" opacity="0.8"/>
-  
-  <!-- Snake pattern rows -->
-  <rect x="638" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  <rect x="660" y="15" width="20" height="20" rx="5" fill="#C75D74"/>
-  <rect x="682" y="15" width="20" height="20" rx="5" fill="#A8556E"/>
-  <rect x="704" y="15" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  <rect x="726" y="15" width="20" height="20" rx="5" fill="#C75D74"/>
-  
-  <!-- Additional rows -->
-  <rect x="0" y="37" width="20" height="20" rx="5" fill="#1E293B"/>
-  <rect x="22" y="37" width="20" height="20" rx="5" fill="#C75D74" opacity="0.6"/>
-  <rect x="44" y="37" width="20" height="20" rx="5" fill="#A8556E" opacity="0.8"/>
-  <rect x="66" y="37" width="20" height="20" rx="5" fill="#E6A4B4"/>
-  <rect x="88" y="37" width="20" height="20" rx="5" fill="#C75D74"/>
-  
-  <!-- Decorative rose accent -->
-  <circle cx="1000" cy="160" r="3" fill="#E6A4B4" opacity="0.3">
-    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1050" cy="160" r="2" fill="#C75D74" opacity="0.3">
-    <animate attributeName="r" values="2;4;2" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Heart accent -->
-  <text x="1130" y="170" font-size="12" fill="#E6A4B4" opacity="0.5">🩷</text>
-  
-  <!-- Bottom legend -->
-  <text x="450" y="175" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#94A3B8" opacity="0.5">
-    Less ✦ ✦ ✦ More
-  </text>
 </svg>
