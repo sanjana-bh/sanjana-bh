@@ -18,32 +18,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Generate Pac-Man Contribution Graph
-        uses: github-user-contribution/pacman-contribution-graph@v1
+        uses: platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          output_only: false
-          user_name: Sanjana Bhardwaj
-          text_color: "0EA5E9"
+          outputs: |
+            output/pacman-contribution-graph.svg?color_snake=0EA5E9&color_dots=0EA5E9,38BDF8,2563EB,0EA5E9,38BDF8
+            output/pacman-contribution-graph-dark.svg?color_snake=0EA5E9&color_dots=07131F,10253A,0EA5E9,2563EB,38BDF8
           
       - name: Commit and push generated SVGs
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Create output directory if it doesn't exist
-          mkdir -p output
-          
-          # Move generated files to output directory
-          if [ -f "pacman-contribution-graph.svg" ]; then
-            cp pacman-contribution-graph.svg output/pacman-contribution-graph.svg
-          fi
-          if [ -f "pacman-contribution-graph-dark.svg" ]; then
-            cp pacman-contribution-graph-dark.svg output/pacman-contribution-graph-dark.svg
-          fi
-          
+          # Add and commit the generated files
           git add output/
-          git commit -m "🎮 Update Pac-Man contribution graph [automated]" || echo "No changes to commit"
+          git diff --staged --quiet || git commit -m "🎮 Update Pac-Man contribution graph [automated]"
           git push
