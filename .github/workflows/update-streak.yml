@@ -1,0 +1,61 @@
+name: Update Streak Stats Daily
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  # Allows manual trigger from Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Get current date
+        id: date
+        run: |
+          # Get current date in different formats
+          echo "CURRENT_DATE=$(date +'%b %d, %Y')" >> $GITHUB_ENV
+          echo "CURRENT_MONTH=$(date +'%b')" >> $GITHUB_ENV
+          echo "CURRENT_DAY=$(date +'%d')" >> $GITHUB_ENV
+          echo "CURRENT_YEAR=$(date +'%Y')" >> $GITHUB_ENV
+          
+          # Start date (when you started contributing)
+          echo "START_DATE=Jul 4, 2024" >> $GITHUB_ENV
+          
+          # Longest streak dates (update these with your actual longest streak)
+          echo "LONGEST_START=Jun 1, 2024" >> $GITHUB_ENV
+          echo "LONGEST_END=Jun 12, 2024" >> $GITHUB_ENV
+          
+          # Your streak numbers (update these)
+          echo "CURRENT_STREAK=7" >> $GITHUB_ENV
+          echo "LONGEST_STREAK=12" >> $GITHUB_ENV
+          echo "TOTAL_CONTRIBUTIONS=307" >> $GITHUB_ENV
+      
+      - name: Update SVG with current dates
+        run: |
+          # Replace all placeholders in the SVG
+          sed -i "s/{{START_DATE}}/${{ env.START_DATE }}/g" streak-template.svg
+          sed -i "s/{{END_DATE}}/${{ env.CURRENT_DATE }}/g" streak-template.svg
+          sed -i "s/{{CURRENT_DATE}}/${{ env.CURRENT_DATE }}/g" streak-template.svg
+          sed -i "s/{{CURRENT_STREAK}}/${{ env.CURRENT_STREAK }}/g" streak-template.svg
+          sed -i "s/{{LONGEST_STREAK}}/${{ env.LONGEST_STREAK }}/g" streak-template.svg
+          sed -i "s/{{LONGEST_START}}/${{ env.LONGEST_START }}/g" streak-template.svg
+          sed -i "s/{{LONGEST_END}}/${{ env.LONGEST_END }}/g" streak-template.svg
+          
+          # Copy to final file
+          cp streak-template.svg streak-stats.svg
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add streak-stats.svg
+          git diff --staged --quiet || git commit -m "chore: update streak stats for $(date +'%Y-%m-%d') [skip ci]"
+          git push
