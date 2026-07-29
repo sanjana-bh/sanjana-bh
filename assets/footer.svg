@@ -11,15 +11,15 @@
   <rect width="100%" height="100%" fill="transparent"/>
   
   <!-- Top Line -->
-  <rect x="100" y="10" width="700" height="1.5" fill="url(#footerGrad)" opacity="0.6"/>
+  <rect x="100" y="10" width="700" height="1.5" fill="url(#footerGrad)" opacity="0.6" rx="0.5"/>
   
-  <!-- Quote -->
+  <!-- Quote - Tech themed for developer -->
   <text x="450" y="45" text-anchor="middle" font-family="'Georgia', serif" font-size="14" fill="#94A3B8" font-style="italic">
-    "The best way to predict the future is to create it."
+    "Code is poetry written in logic."
   </text>
   
-  <!-- Attribution -->
-  <text x="450" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="11" fill="#6B7280">
-    Crafted with <tspan fill="#C75D74">❤️</tspan> by Sanjana Bhardwaj
+  <!-- Attribution with pink heart -->
+  <text x="450" y="68" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#C75D74" font-weight="600">
+    Crafted with 🩷 by Sanjana Bhardwaj
   </text>
 </svg>
