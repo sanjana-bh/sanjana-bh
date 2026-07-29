@@ -200,6 +200,8 @@ Full Ownership: Able to take data projects from raw data to polished dashboards 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=10,12,14,16,18&height=2&width=100%"/>
 <!-- 🌟 FOOTER --><div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,12,14,16,18&height=120&section=footer"/>
 📊 Turning Data into Actionable Business Insights
+  <br>
 <sub>⚡ Built with ❤️ by Sanjana</sub>
 
-</div><!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 📝 END OF README --><!-- ═══════════════════════════════════════════════════════════════════════════ -->
+</div>
+<!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 📝 END OF README --><!-- ═══════════════════════════════════════════════════════════════════════════ -->
