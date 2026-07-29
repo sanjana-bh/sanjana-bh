@@ -43,7 +43,6 @@
 
 <div align="center">
   <pre style="background: #07131F; color: #D7E7F5; padding: 20px; border-radius: 10px; border: 1px solid #0EA5E9; text-align: left; font-family: 'JetBrains Mono', monospace; max-width: 800px; margin: 0 auto;">
-
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                 │
 │  > whoami                                                      │
@@ -408,16 +407,16 @@ I am a passionate **Data Analyst & BI Developer** based in Mumbai, India, specia
 <a href="https://github.com/sanjana-bh" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=07131F" alt="GitHub"/>
 </a> &nbsp;
-<a href="https://linkedin.com/in/sanjana-bhardwaj" target="_blank">
+<a href="https://www.linkedin.com/in/sanjana-b-data-analyst" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=07131F" alt="LinkedIn"/>
 </a> &nbsp;
-<a href="mailto:sanjana.bhardwaj@email.com">
+<a href="mailto:sanjana.codes.tech@email.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=07131F" alt="Email"/>
 </a> &nbsp;
-<a href="https://sanjana-portfolio.com" target="_blank">
+<a href="https://sanjana-portfolio-seven.vercel.app" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-0EA5E9?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=07131F" alt="Portfolio"/>
 </a> &nbsp;
-<a href="https://sanjana-resume.com" target="_blank">
+<a href="https://drive.google.com/file/d/1Vy0dV1Y940SZcvbDcACYhLLenz-7FD4F/view?usp=sharing" target="_blank">
   <img src="https://img.shields.io/badge/Resume-38BDF8?style=for-the-badge&logo=read-the-docs&logoColor=white&labelColor=07131F" alt="Resume"/>
 </a>
 
@@ -461,12 +460,6 @@ I am a passionate **Data Analyst & BI Developer** based in Mumbai, India, specia
 <br/>
 
 ## 📊 Turning Data into Actionable Business Insights
-
-<br/>
-
-<a href="https://buymeacoffee.com/sanjana" target="_blank">
-  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"/>
-</a>
 
 <br/><br/>
 
