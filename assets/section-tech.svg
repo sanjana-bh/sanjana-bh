@@ -1,22 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="40" viewBox="0 0 200 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48">
   <defs>
-    <linearGradient id="sectionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#667eea"/>
-      <stop offset="100%" style="stop-color:#764ba2"/>
+    <!-- Muted Rose Animated Gradient -->
+    <linearGradient id="mutedRoseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C75D74">
+        <animate attributeName="stop-color" values="#C75D74;#E6A4B4;#A8556E;#C75D74" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#A8556E">
+        <animate attributeName="stop-color" values="#A8556E;#C75D74;#E6A4B4;#A8556E" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#E6A4B4">
+        <animate attributeName="stop-color" values="#E6A4B4;#A8556E;#C75D74;#E6A4B4" dur="4s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Sparkle Gradient -->
+    <radialGradient id="sparkleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E6A4B4;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C75D74;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Lightning Glow -->
+    <radialGradient id="lightningGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E6A4B4;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#A8556E;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Circuit Pattern -->
+    <pattern id="circuit" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M 0 4 L 4 4 L 4 0 M 8 4 L 4 4 L 4 8" fill="none" stroke="#C75D74" stroke-width="0.3" opacity="0.1">
+        <animate attributeName="opacity" values="0.05;0.15;0.05" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </pattern>
   </defs>
-  
+
   <rect width="100%" height="100%" fill="transparent"/>
-  
-  <!-- Icon -->
-  <text x="5" y="28" font-size="20">⚡</text>
-  
-  <!-- Text -->
-  <text x="35" y="27" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="url(#sectionGrad)">
-    Tech Stack
+
+  <!-- Circuit Pattern Background -->
+  <rect x="35" y="8" width="175" height="32" fill="url(#circuit)" rx="4"/>
+
+  <!-- Floating Sparkles -->
+  <circle cx="10" cy="6" r="2" fill="#E6A4B4" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;2.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="32" cy="4" r="1.5" fill="#C75D74" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.7;0.1" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="0.5;2;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="195" cy="7" r="2" fill="#E6A4B4" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;2.5;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="212" cy="40" r="1.5" fill="#A8556E" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="0.5;2;0.5" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Lightning Icon Glow -->
+  <circle cx="16" cy="22" r="14" fill="url(#lightningGlow)">
+    <animate attributeName="r" values="12;17;12" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Lightning Icon with Pulse & Spark Animation -->
+  <g filter="url(#glow)">
+    <text x="8" y="29" font-size="20">
+      ⚡
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 16 22;-8 16 22;0 16 22;8 16 22;0 16 22" dur="3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Lightning Sparks -->
+  <g opacity="0.4">
+    <line x1="25" y1="12" x2="30" y2="8" stroke="#E6A4B4" stroke-width="1" stroke-linecap="round">
+      <animate attributeName="opacity" values="0;0.6;0" dur="1.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="27" y1="32" x2="32" y2="36" stroke="#C75D74" stroke-width="1" stroke-linecap="round">
+      <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="22" y1="8" x2="25" y2="4" stroke="#A8556E" stroke-width="0.8" stroke-linecap="round">
+      <animate attributeName="opacity" values="0;0.5;0" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Text with Shadow & Pulse -->
+  <g filter="url(#glow)">
+    <text x="38" y="28" font-family="'Georgia', 'Segoe UI', serif" font-size="19" font-weight="700" fill="url(#mutedRoseGrad)" letter-spacing="3">
+      Tech Stack
+      <animate attributeName="font-size" values="19;20.5;19" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="letter-spacing" values="3;4.5;3" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Animated Underline with Gradient -->
+  <rect x="38" y="35" width="105" height="2.5" fill="url(#mutedRoseGrad)" rx="1.5">
+    <animate attributeName="width" values="105;95;110;105" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="38;40;38" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative Circuit Node at end of underline -->
+  <g opacity="0.8">
+    <circle cx="143" cy="36.5" r="3" fill="none" stroke="#E6A4B4" stroke-width="1.5">
+      <animate attributeName="r" values="2.5;4;2.5" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="143" cy="36.5" r="1.5" fill="#C75D74">
+      <animate attributeName="r" values="1;2;1" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Circuit lines from node -->
+    <line x1="146" y1="36.5" x2="152" y2="36.5" stroke="#A8556E" stroke-width="1" opacity="0.4">
+      <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="143" y1="39.5" x2="143" y2="44" stroke="#E6A4B4" stroke-width="1" opacity="0.3">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Tech Stack Icons Floating -->
+  <text x="165" y="14" font-size="9" opacity="0.3">
+    🐍
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="2.5s" repeatCount="indefinite"/>
   </text>
-  
-  <!-- Underline -->
-  <rect x="35" y="32" width="95" height="2" fill="url(#sectionGrad)" rx="1"/>
+  <text x="178" y="38" font-size="8" opacity="0.3">
+    ⚛️
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <text x="192" y="20" font-size="8" opacity="0.3">
+    🚀
+    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="2.8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="2.2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Small Tech Dot Indicators -->
+  <circle cx="155" cy="10" r="1" fill="#C75D74" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="34" r="1" fill="#A8556E" opacity="0.3">
+    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Small Heart Decoration -->
+  <text x="205" y="18" font-size="10" opacity="0.4">
+    🩷
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Pulsing Background Glow -->
+  <ellipse cx="90" cy="22" rx="100" ry="22" fill="url(#sparkleGrad)" opacity="0.05">
+    <animate attributeName="opacity" values="0.02;0.08;0.02" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="rx" values="100;115;100" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
 </svg>
