@@ -2,13 +2,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="8" viewBox="0 0 900 8">
   <defs>
     <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0F172A"/>
-      <stop offset="15%" style="stop-color:#C75D74"/>
-      <stop offset="50%" style="stop-color:#A8556E"/>
-      <stop offset="85%" style="stop-color:#E6A4B4"/>
-      <stop offset="100%" style="stop-color:#0F172A"/>
+      <stop offset="0%" stop-color="#09090F"/>
+      <stop offset="20%" stop-color="#262637"/>
+      <stop offset="40%" stop-color="#FF2D95"/>
+      <stop offset="50%" stop-color="#49C9EA"/>
+      <stop offset="60%" stop-color="#FF79BF"/>
+      <stop offset="80%" stop-color="#262637"/>
+      <stop offset="100%" stop-color="#09090F"/>
     </linearGradient>
   </defs>
-  
-  <rect x="0" y="3" width="900" height="2" fill="url(#dividerGrad)" rx="1"/>
+
+  <rect
+    x="0"
+    y="3"
+    width="900"
+    height="2"
+    rx="1"
+    fill="url(#dividerGrad)"
+    opacity="0.85"/>
 </svg>
