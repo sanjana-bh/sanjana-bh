@@ -1,4 +1,3 @@
-
 <!-- 
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -160,14 +159,14 @@ impactful technology.
 <img src="./assets/section-game.svg" width="280"/>
 
 <div align="center">
-  <!-- Snake Contribution Graph -->
+  <!-- Galaga/Pacman Contribution Graph -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-contribution-graph-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/snake-contribution-graph-dark.svg"/>
-    <img alt="Snake eating contributions" src="./assets/snake-contribution-graph-dark.svg" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sanjana-bh/sanjana-bh/pacman-output/galaga-contribution-graph-dark.svg?game=galaga">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sanjana-bh/sanjana-bh/pacman-output/galaga-contribution-graph.svg?game=galaga">
+    <img alt="Galaga contribution graph" src="https://raw.githubusercontent.com/sanjana-bh/sanjana-bh/pacman-output/galaga-contribution-graph.svg?game=galaga" width="100%">
   </picture>
   <br/>
-  <sub>🐍 Watch the snake eat my contributions! Dynamically updated.</sub>
+  <sub>🚀 Galaga-style contribution graph! Dynamically updated.</sub>
 </div>
 
 <img src="./assets/divider.svg" width="100%"/>
