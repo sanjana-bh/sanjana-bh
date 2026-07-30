@@ -26,8 +26,7 @@
   </a>
   &nbsp;
   <a href="https://github.com/sanjana-bh?tab=repositories">
-    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&query=%24.public_repos&label=Repositories&style=flat-square&color=A8556E&labelColor=0F172A"   alt="Repositories"/>
-  </a>
+    ![Repos](https://img.shields.io/github/stars/sanjana-bh?style=flat-square)  </a>
   &nbsp;
   <a href="https://github.com/sanjana-bh?tab=followers">
     <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&query=%24.followers&label=Followers&style=flat-square&color=E6A4B4&labelColor=0F172A" alt="Followers"/>
