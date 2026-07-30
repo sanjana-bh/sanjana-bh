@@ -1,53 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="45" viewBox="0 0 200 45">
   <defs>
-    <!-- Muted Rose Animated Gradient -->
-    <linearGradient id="mutedRoseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#C75D74">
-        <animate attributeName="stop-color" values="#C75D74;#E6A4B4;#A8556E;#C75D74" dur="4s" repeatCount="indefinite"/>
+    <!-- Brand Palette Gradient -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF2D95">
+        <animate attributeName="stop-color" values="#FF2D95;#49C9EA;#FF79BF;#FF2D95" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" style="stop-color:#A8556E">
-        <animate attributeName="stop-color" values="#A8556E;#C75D74;#E6A4B4;#A8556E" dur="4s" repeatCount="indefinite"/>
+      <stop offset="50%" style="stop-color:#FF79BF">
+        <animate attributeName="stop-color" values="#FF79BF;#FF2D95;#49C9EA;#FF79BF" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" style="stop-color:#E6A4B4">
-        <animate attributeName="stop-color" values="#E6A4B4;#A8556E;#C75D74;#E6A4B4" dur="4s" repeatCount="indefinite"/>
+      <stop offset="100%" style="stop-color:#49C9EA">
+        <animate attributeName="stop-color" values="#49C9EA;#FF79BF;#FF2D95;#49C9EA" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <!-- Glow Filter -->
+    <!-- Glow Filter - Sharpened -->
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Sparkle Gradient -->
+    <!-- Subtle Background Glow -->
     <radialGradient id="sparkleGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#E6A4B4;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#C75D74;stop-opacity:0"/>
+      <stop offset="0%" style="stop-color:#49C9EA;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF2D95;stop-opacity:0"/>
     </radialGradient>
   </defs>
 
   <rect width="100%" height="100%" fill="transparent"/>
 
-  <!-- Floating Sparkles -->
-  <circle cx="8" cy="5" r="1.5" fill="#E6A4B4" opacity="0.6">
-    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+  <!-- Floating Sparkles - Reduced count & opacity -->
+  <circle cx="8" cy="5" r="1.5" fill="#49C9EA" opacity="0.35">
+    <animate attributeName="opacity" values="0.15;0.45;0.15" dur="2s" repeatCount="indefinite"/>
     <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="30" cy="8" r="1" fill="#C75D74" opacity="0.4">
-    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="0.5;1.5;0.5" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="170" cy="4" r="1.5" fill="#E6A4B4" opacity="0.5">
-    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite"/>
+  <circle cx="170" cy="4" r="1.5" fill="#FF79BF" opacity="0.35">
+    <animate attributeName="opacity" values="0.15;0.45;0.15" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="r" values="1;2;1" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="190" cy="38" r="1" fill="#A8556E" opacity="0.4">
-    <animate attributeName="opacity" values="0.1;0.5;0.1" dur="2.8s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="0.5;1.5;0.5" dur="2.8s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Icon with Pulse Animation -->
@@ -58,37 +50,33 @@
     </text>
   </g>
 
-  <!-- Text with Shadow -->
+  <!-- Text - No font-size animation -->
   <g filter="url(#glow)">
-    <text x="35" y="27" font-family="'Georgia', 'Segoe UI', serif" font-size="19" font-weight="700" fill="url(#mutedRoseGrad)" letter-spacing="2">
+    <text x="35" y="27" font-family="'Georgia', 'Segoe UI', serif" font-size="19" font-weight="700" fill="url(#brandGrad)" letter-spacing="2">
       About Me
-      <animate attributeName="font-size" values="19;20;19" dur="3s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <!-- Animated Underline -->
-  <rect x="35" y="33" width="85" height="2.5" fill="url(#mutedRoseGrad)" rx="1.5">
-    <animate attributeName="width" values="85;75;90;85" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="35;37;35" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  <!-- Subtle Underline Animation -->
+  <rect x="35" y="33" width="85" height="2.5" fill="url(#brandGrad)" rx="1.5">
+    <animate attributeName="width" values="85;82;87;85" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Decorative Dot at end of underline -->
-  <circle cx="120" cy="34" r="2.5" fill="#E6A4B4" opacity="0.8">
+  <circle cx="120" cy="34" r="2.5" fill="#49C9EA" opacity="0.8">
     <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
     <animate attributeName="r" values="2;3.5;2" dur="1.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Small Flower/Heart Decoration -->
-  <text x="155" y="20" font-size="10" opacity="0.4">
-    🌸
-    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.5s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="0 160 18;15 160 18;0 160 18" dur="4s" repeatCount="indefinite"/>
-  </text>
+  <!-- Tiny Cyan Accent (replaces flower) -->
+  <circle cx="160" cy="18" r="1.8" fill="#49C9EA" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- Pulsing Background Glow -->
-  <ellipse cx="75" cy="20" rx="90" ry="20" fill="url(#sparkleGrad)" opacity="0.05">
-    <animate attributeName="opacity" values="0.02;0.08;0.02" dur="3s" repeatCount="indefinite"/>
+  <!-- Subtle Pulsing Background Glow -->
+  <ellipse cx="75" cy="20" rx="90" ry="20" fill="url(#sparkleGrad)" opacity="0.025">
+    <animate attributeName="opacity" values="0.015;0.04;0.015" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="rx" values="90;100;90" dur="3s" repeatCount="indefinite"/>
   </ellipse>
 </svg>
