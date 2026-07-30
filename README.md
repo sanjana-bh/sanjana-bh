@@ -26,14 +26,11 @@
   </a>
   &nbsp;
   <a href="https://github.com/sanjana-bh?tab=repositories">
-    <img
-      src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&query=%24.public_repos&label=Repositories&style=flat-square&color=A8556E&labelColor=0F172A"
-      alt="Repositories"
-    />
+    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&query=%24.public_repos&label=Repositories&style=flat-square&color=A8556E&labelColor=0F172A"   alt="Repositories"/>
   </a>
   &nbsp;
   <a href="https://github.com/sanjana-bh?tab=followers">
-    <img src="https://img.shields.io/badge/dynamic/json?color=E6A4B4&label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&style=flat-square&labelColor=0F172A" alt="Followers"/>
+    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&query=%24.followers&label=Followers&style=flat-square&color=E6A4B4&labelColor=0F172A" alt="Followers"/>
   </a>
   &nbsp;
   <a href="https://github.com/sanjana-bh">
