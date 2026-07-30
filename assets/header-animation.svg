@@ -2,94 +2,84 @@
   <defs>
     <!-- Subtle grid pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF1493" stroke-width="0.3" opacity="0.04"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2A2A3A" stroke-width="0.3" opacity="0.3"/>
     </pattern>
 
-    <!-- Dark Background -->
-    <radialGradient id="bgGlow" cx="50%" cy="40%" r="50%">
-      <stop offset="0%" style="stop-color:#FF1493;stop-opacity:0.04"/>
-      <stop offset="100%" style="stop-color:#08080F;stop-opacity:0"/>
-    </radialGradient>
-
-    <!-- Solid gradients for text - no glow -->
-    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#FF2D95"/>
-      <stop offset="50%" style="stop-color:#FF1493"/>
-      <stop offset="100%" style="stop-color:#FF69B4"/>
-    </linearGradient>
-
-    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00E5FF"/>
-      <stop offset="100%" style="stop-color:#00B8D4"/>
+      <stop offset="50%" style="stop-color:#FF2D95"/>
+      <stop offset="100%" style="stop-color:#FF73B8"/>
     </linearGradient>
   </defs>
 
-  <!-- Dark Background -->
-  <rect width="900" height="220" fill="#0A0A14"/>
-  <rect width="900" height="220" fill="url(#grid)"/>
-  <rect width="900" height="220" fill="url(#bgGlow)"/>
+  <!-- Background -->
+  <rect width="900" height="220" fill="#0B0B14"/>
 
-  <!-- Scanlines -->
-  <pattern id="scanlines" width="900" height="2" patternUnits="userSpaceOnUse">
-    <rect width="900" height="0.5" fill="#000" opacity="0.15"/>
-  </pattern>
-  <rect width="900" height="220" fill="url(#scanlines)" opacity="0.5"/>
+  <!-- Card Background -->
+  <rect x="20" y="10" width="860" height="200" rx="4" ry="4" fill="#11111D"/>
 
-  <!-- Top Line -->
-  <rect x="60" y="0" width="780" height="1" fill="#FF1493" opacity="0.25"/>
+  <!-- Grid overlay -->
+  <rect x="20" y="10" width="860" height="200" rx="4" ry="4" fill="url(#grid)"/>
+
+  <!-- Top Border -->
+  <rect x="40" y="10" width="820" height="1" fill="#2A2A3A" opacity="0.5"/>
 
   <!-- Corner brackets -->
-  <path d="M30 20 L30 6 L44 6" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
-  <path d="M870 20 L870 6 L856 6" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
-  <path d="M30 200 L30 214 L44 214" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
-  <path d="M870 200 L870 214 L856 214" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
+  <path d="M50 28 L50 18 L60 18" fill="none" stroke="#4DD7F3" stroke-width="1.2" opacity="0.4"/>
+  <path d="M850 28 L850 18 L840 18" fill="none" stroke="#4DD7F3" stroke-width="1.2" opacity="0.4"/>
+  <path d="M50 192 L50 202 L60 202" fill="none" stroke="#4DD7F3" stroke-width="1.2" opacity="0.4"/>
+  <path d="M850 192 L850 202 L840 202" fill="none" stroke="#4DD7F3" stroke-width="1.2" opacity="0.4"/>
 
-  <!-- Main Name - solid, no glow -->
-  <text x="450" y="70" text-anchor="middle" font-family="'Orbitron', 'Rajdhani', 'Arial', sans-serif" font-size="42" font-weight="900" fill="#FF1493" letter-spacing="8">
-    Sanjana Bhardwaj
+  <!-- Main Name - Primary #FF2D95 -->
+  <text x="450" y="68" text-anchor="middle" font-family="'Orbitron', 'Rajdhani', 'Arial', sans-serif" font-size="38" font-weight="900" fill="#FF2D95" letter-spacing="8">
+    SANJANA BHARDWAJ
   </text>
 
-  <!-- Underline -->
-  <rect x="280" y="82" width="340" height="1.5" fill="#FF1493" opacity="0.5">
+  <!-- Divider line -->
+  <rect x="280" y="80" width="340" height="1" fill="#41304A" opacity="0.6">
     <animate attributeName="width" values="0;340" dur="0.8s" fill="freeze"/>
   </rect>
-  <!-- Cyan underline accent -->
-  <rect x="280" y="84" width="60" height="1" fill="#00E5FF" opacity="0.4">
+
+  <!-- Cyan accent line -->
+  <rect x="280" y="82" width="60" height="1.5" fill="#4DD7F3" opacity="0.5">
     <animate attributeName="width" values="0;60" dur="1s" fill="freeze"/>
     <animate attributeName="x" values="280;560" dur="5s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- Title 1: DATA ANALYST -->
-  <text x="450" y="128" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="15" font-weight="600" fill="#FF69B4" letter-spacing="12">
+  <!-- Title 1: DATA ANALYST - Secondary #FF73B8 -->
+  <text x="450" y="122" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#FF73B8" letter-spacing="12">
     DATA ANALYST
   </text>
 
   <!-- Separator -->
-  <text x="450" y="148" text-anchor="middle" font-family="'Rajdhani', monospace" font-size="9" fill="#00E5FF" letter-spacing="6" opacity="0.5">
-    ⚡ ✦ ⚡
+  <text x="450" y="142" text-anchor="middle" font-family="'Rajdhani', monospace" font-size="8" fill="#4DD7F3" letter-spacing="6" opacity="0.4">
+    ✦ ✦ ✦
   </text>
 
-  <!-- Title 2: MERN + Software Developer -->
-  <text x="450" y="168" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="11" font-weight="400" fill="#00E5FF" letter-spacing="5" opacity="0.7">
+  <!-- Title 2: MERN + Software Developer - Secondary Text #B3B8C7 -->
+  <text x="450" y="162" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="11" font-weight="400" fill="#B3B8C7" letter-spacing="5">
     MERN STACK DEVELOPER  //  SOFTWARE DEVELOPER
   </text>
 
-  <!-- Bottom Line -->
-  <rect x="60" y="192" width="780" height="1" fill="#FF1493" opacity="0.2"/>
+  <!-- Bottom Divider -->
+  <rect x="40" y="185" width="820" height="1" fill="#41304A" opacity="0.4"/>
 
-  <!-- Location -->
-  <text x="320" y="210" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="10" font-weight="300" fill="#00E5FF" letter-spacing="4" opacity="0.5">
+  <!-- Location - Muted Text #7C8396 -->
+  <text x="310" y="200" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="10" font-weight="300" fill="#7C8396" letter-spacing="4">
     &lt; MUMBAI, INDIA /&gt;
   </text>
 
-  <!-- Open to Work -->
-  <rect x="525" y="199" width="118" height="20" rx="2" ry="2" fill="none" stroke="#FF1493" stroke-width="0.8" opacity="0.4"/>
-  <rect x="525" y="199" width="118" height="20" rx="2" ry="2" fill="#FF1493" opacity="0.06"/>
-  <text x="584" y="213" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="9" font-weight="500" fill="#FF1493" letter-spacing="3">
+  <!-- Open to Work - Success #22C55E -->
+  <rect x="525" y="190" width="118" height="20" rx="2" ry="2" fill="none" stroke="#22C55E" stroke-width="0.8" opacity="0.4"/>
+  <rect x="525" y="190" width="118" height="20" rx="2" ry="2" fill="#22C55E" opacity="0.06"/>
+  <text x="584" y="204" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="9" font-weight="500" fill="#22C55E" letter-spacing="3">
     [ OPEN TO WORK ]
   </text>
 
   <!-- Decorative dots -->
-  <circle cx="502" cy="210" r="1" fill="#00E5FF" opacity="0.25"/>
-  <circle cx="658" cy="210" r="1" fill="#00E5FF" opacity="0.25"/>
+  <circle cx="492" cy="200" r="1.2" fill="#4DD7F3" opacity="0.25"/>
+  <circle cx="658" cy="200" r="1.2" fill="#4DD7F3" opacity="0.25"/>
+
+  <!-- Bottom Border -->
+  <rect x="40" y="210" width="820" height="1" fill="#2A2A3A" opacity="0.3"/>
 </svg>
