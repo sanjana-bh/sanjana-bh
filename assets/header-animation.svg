@@ -1,63 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
   <defs>
-    <!-- Subtle Glow -->
-    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
-      <stop offset="0%" style="stop-color:#C9788E;stop-opacity:0.05"/>
-      <stop offset="100%" style="stop-color:#0B1220;stop-opacity:0"/>
+    <!-- Subtle grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF1493" stroke-width="0.3" opacity="0.04"/>
+    </pattern>
+
+    <!-- Dark Background -->
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#FF1493;stop-opacity:0.04"/>
+      <stop offset="100%" style="stop-color:#08080F;stop-opacity:0"/>
     </radialGradient>
 
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#E3A8B7"/>
-      <stop offset="50%" style="stop-color:#C9788E"/>
-      <stop offset="100%" style="stop-color:#E3A8B7">
-        <animate attributeName="stop-color" values="#E3A8B7;#C9788E;#E3A8B7" dur="5s" repeatCount="indefinite"/>
-      </stop>
+    <!-- Solid gradients for text - no glow -->
+    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF2D95"/>
+      <stop offset="50%" style="stop-color:#FF1493"/>
+      <stop offset="100%" style="stop-color:#FF69B4"/>
+    </linearGradient>
+
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00E5FF"/>
+      <stop offset="100%" style="stop-color:#00B8D4"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="220" fill="#0B1220"/>
-  <rect width="900" height="220" fill="url(#glow)"/>
+  <!-- Dark Background -->
+  <rect width="900" height="220" fill="#0A0A14"/>
+  <rect width="900" height="220" fill="url(#grid)"/>
+  <rect width="900" height="220" fill="url(#bgGlow)"/>
+
+  <!-- Scanlines -->
+  <pattern id="scanlines" width="900" height="2" patternUnits="userSpaceOnUse">
+    <rect width="900" height="0.5" fill="#000" opacity="0.15"/>
+  </pattern>
+  <rect width="900" height="220" fill="url(#scanlines)" opacity="0.5"/>
 
   <!-- Top Line -->
-  <rect x="80" y="0" width="740" height="1" fill="#D49AAA" opacity="0.12"/>
+  <rect x="60" y="0" width="780" height="1" fill="#FF1493" opacity="0.25"/>
 
-  <!-- Main Name -->
-  <text x="450" y="72" text-anchor="middle" font-family="'Playfair Display', 'Georgia', serif" font-size="46" font-weight="700" fill="url(#nameGrad)" letter-spacing="4">
+  <!-- Corner brackets -->
+  <path d="M30 20 L30 6 L44 6" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
+  <path d="M870 20 L870 6 L856 6" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
+  <path d="M30 200 L30 214 L44 214" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
+  <path d="M870 200 L870 214 L856 214" fill="none" stroke="#FF1493" stroke-width="1" opacity="0.35"/>
+
+  <!-- Main Name - solid, no glow -->
+  <text x="450" y="70" text-anchor="middle" font-family="'Orbitron', 'Rajdhani', 'Arial', sans-serif" font-size="42" font-weight="900" fill="#FF1493" letter-spacing="8">
     Sanjana Bhardwaj
   </text>
 
   <!-- Underline -->
-  <rect x="280" y="86" width="340" height="2" fill="#C9788E" rx="1" opacity="0.3">
+  <rect x="280" y="82" width="340" height="1.5" fill="#FF1493" opacity="0.5">
     <animate attributeName="width" values="0;340" dur="0.8s" fill="freeze"/>
+  </rect>
+  <!-- Cyan underline accent -->
+  <rect x="280" y="84" width="60" height="1" fill="#00E5FF" opacity="0.4">
+    <animate attributeName="width" values="0;60" dur="1s" fill="freeze"/>
+    <animate attributeName="x" values="280;560" dur="5s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Title 1: DATA ANALYST -->
-  <text x="450" y="128" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="15" font-weight="500" fill="#E3A8B7" letter-spacing="8">
+  <text x="450" y="128" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="15" font-weight="600" fill="#FF69B4" letter-spacing="12">
     DATA ANALYST
   </text>
 
+  <!-- Separator -->
+  <text x="450" y="148" text-anchor="middle" font-family="'Rajdhani', monospace" font-size="9" fill="#00E5FF" letter-spacing="6" opacity="0.5">
+    ⚡ ✦ ⚡
+  </text>
+
   <!-- Title 2: MERN + Software Developer -->
-  <text x="450" y="155" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12" font-weight="300" fill="#94A3B8" letter-spacing="3">
-    MERN STACK DEVELOPER  ✦  SOFTWARE DEVELOPER
+  <text x="450" y="168" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="11" font-weight="400" fill="#00E5FF" letter-spacing="5" opacity="0.7">
+    MERN STACK DEVELOPER  //  SOFTWARE DEVELOPER
   </text>
 
   <!-- Bottom Line -->
-  <rect x="80" y="195" width="740" height="1" fill="#D49AAA" opacity="0.12"/>
+  <rect x="60" y="192" width="780" height="1" fill="#FF1493" opacity="0.2"/>
 
-  <!-- Bottom Row -->
-  <text x="320" y="210" text-anchor="middle" font-family="'Inter', sans-serif" font-size="11" font-weight="300" fill="#94A3B8" letter-spacing="2">
-    MUMBAI, INDIA
+  <!-- Location -->
+  <text x="320" y="210" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="10" font-weight="300" fill="#00E5FF" letter-spacing="4" opacity="0.5">
+    &lt; MUMBAI, INDIA /&gt;
   </text>
 
   <!-- Open to Work -->
-  <rect x="525" y="200" width="110" height="20" rx="10" ry="10" fill="#C9788E" opacity="0.1"/>
-  <text x="580" y="214" text-anchor="middle" font-family="'Inter', sans-serif" font-size="10" font-weight="500" fill="#C9788E" letter-spacing="2">
-    OPEN TO WORK
+  <rect x="525" y="199" width="118" height="20" rx="2" ry="2" fill="none" stroke="#FF1493" stroke-width="0.8" opacity="0.4"/>
+  <rect x="525" y="199" width="118" height="20" rx="2" ry="2" fill="#FF1493" opacity="0.06"/>
+  <text x="584" y="213" text-anchor="middle" font-family="'Rajdhani', 'Arial', sans-serif" font-size="9" font-weight="500" fill="#FF1493" letter-spacing="3">
+    [ OPEN TO WORK ]
   </text>
 
-  <!-- Small dots -->
-  <circle cx="520" cy="210" r="1.5" fill="#E3A8B7" opacity="0.15"/>
-  <circle cx="645" cy="210" r="1.5" fill="#E3A8B7" opacity="0.15"/>
+  <!-- Decorative dots -->
+  <circle cx="502" cy="210" r="1" fill="#00E5FF" opacity="0.25"/>
+  <circle cx="658" cy="210" r="1" fill="#00E5FF" opacity="0.25"/>
 </svg>
