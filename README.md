@@ -29,7 +29,7 @@
     <img src="https://img.shields.io/badge/dynamic/json?color=A8556E&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&style=flat-square&labelColor=0F172A" alt="Repositories"/>
   </a>
   &nbsp;
-  <a href="https://github.com/sanjana-bha?tab=followers">
+  <a href="https://github.com/sanjana-bh?tab=followers">
     <img src="https://img.shields.io/badge/dynamic/json?color=E6A4B4&label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&style=flat-square&labelColor=0F172A" alt="Followers"/>
   </a>
   &nbsp;
