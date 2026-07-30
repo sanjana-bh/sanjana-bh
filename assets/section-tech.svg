@@ -2,14 +2,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48">
   <defs>
     <!-- Brand Palette Gradient -->
-    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF2D95">
+    <linearGradient id="sectionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF2D95">
         <animate attributeName="stop-color" values="#FF2D95;#FF79BF;#49C9EA;#FF2D95" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#FF79BF">
+      <stop offset="50%" style="stop-color:#FF79BF">
         <animate attributeName="stop-color" values="#FF79BF;#49C9EA;#FF2D95;#FF79BF" dur="8s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#49C9EA">
+      <stop offset="100%" style="stop-color:#49C9EA">
         <animate attributeName="stop-color" values="#49C9EA;#FF2D95;#FF79BF;#49C9EA" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
@@ -25,43 +25,32 @@
 
     <!-- Subtle Background Glow -->
     <radialGradient id="sparkleGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#FF2D95;stop-opacity:0.15"/>
+      <stop offset="0%" style="stop-color:#FF2D95;stop-opacity:0.18"/>
       <stop offset="100%" style="stop-color:#49C9EA;stop-opacity:0"/>
-    </radialGradient>
-
-    <!-- Icon Glow - Subtle -->
-    <radialGradient id="iconGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#49C9EA;stop-opacity:0.25"/>
-      <stop offset="100%" style="stop-color:#FF2D95;stop-opacity:0"/>
     </radialGradient>
   </defs>
 
   <rect width="100%" height="100%" fill="transparent"/>
 
-  <!-- Subtle Border Glow -->
-  <rect x="1" y="1" width="218" height="46" rx="8" fill="none" stroke="url(#brandGrad)" stroke-opacity="0.12">
-    <animate attributeName="stroke-opacity" values="0.08;0.2;0.08" dur="3s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Floating Sparkles - Reduced count -->
+  <!-- Floating Sparkles - Reduced count & opacity -->
   <circle cx="10" cy="6" r="1.5" fill="#49C9EA" opacity="0.35">
     <animate attributeName="opacity" values="0.15;0.45;0.15" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="1;2;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1;2.5;1" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="195" cy="7" r="1.5" fill="#FF79BF" opacity="0.35">
+  <circle cx="195" cy="5" r="1.5" fill="#FF79BF" opacity="0.35">
     <animate attributeName="opacity" values="0.15;0.45;0.15" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="r" values="1;2;1" dur="3s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Icon Glow Background - Subtle -->
-  <circle cx="16" cy="22" r="14" fill="url(#iconGlow)">
-    <animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3s" repeatCount="indefinite"/>
+  <circle cx="16" cy="24" r="12" fill="url(#sparkleGrad)">
+    <animate attributeName="r" values="11;12;11" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.35;0.2" dur="2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Lightning Icon - SVG path (replaces emoji) -->
-  <g filter="url(#glow)" transform="translate(8,9)">
-    <path d="M10 0L2 13h6L5 24l10-14H9z" fill="url(#brandGrad)">
+  <!-- Lightning Icon - SVG path -->
+  <g filter="url(#glow)" transform="translate(8,10)">
+    <path d="M10 0L2 13h6L5 24l10-14H9z" fill="url(#sectionGrad)">
       <animateTransform attributeName="transform" type="translate" values="0 0;0 -1;0 0" dur="2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
     </path>
@@ -69,44 +58,25 @@
 
   <!-- Text - Static size -->
   <g filter="url(#glow)">
-    <text x="38" y="28" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="20" font-weight="700" fill="url(#brandGrad)" letter-spacing="3">
+    <text x="35" y="29" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="url(#sectionGrad)" letter-spacing="2">
       Tech Stack
     </text>
   </g>
 
   <!-- Subtle Underline -->
-  <rect x="38" y="35" width="118" height="2.5" fill="url(#brandGrad)" rx="1.5">
-    <animate attributeName="width" values="118;114;121;118" dur="5s" repeatCount="indefinite"/>
+  <rect x="35" y="35" width="118" height="2.5" fill="url(#sectionGrad)" rx="1.5">
+    <animate attributeName="width" values="118;114;122;118" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
   </rect>
 
   <!-- Decorative Dot at end of underline -->
-  <circle cx="156" cy="36" r="2.5" fill="#49C9EA" opacity="0.6">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="1.5s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="2;3;2" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Tech Dot Indicators (replaces floating emojis) -->
-  <circle cx="172" cy="12" r="2" fill="#FF79BF" opacity="0.25">
-    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="1.5;2.5;1.5" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="186" cy="28" r="2" fill="#49C9EA" opacity="0.25">
-    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="2.8s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="1.5;2.5;1.5" dur="2.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="198" cy="16" r="2" fill="#FF2D95" opacity="0.25">
-    <animate attributeName="opacity" values="0.1;0.4;0.1" dur="3.2s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="1.5;2.5;1.5" dur="3.2s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Tiny Accent Dot -->
-  <circle cx="205" cy="34" r="1.8" fill="#49C9EA" opacity="0.3">
-    <animate attributeName="opacity" values="0.15;0.45;0.15" dur="3.5s" repeatCount="indefinite"/>
+  <circle cx="153" cy="36" r="2.5" fill="#49C9EA" opacity="0.7">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2;3.5;2" dur="1.5s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Subtle Pulsing Background Glow -->
-  <ellipse cx="90" cy="22" rx="100" ry="22" fill="url(#sparkleGrad)" opacity="0.025">
+  <ellipse cx="95" cy="22" rx="100" ry="20" fill="url(#sparkleGrad)" opacity="0.025">
     <animate attributeName="opacity" values="0.015;0.04;0.015" dur="3s" repeatCount="indefinite"/>
     <animate attributeName="rx" values="100;110;100" dur="3s" repeatCount="indefinite"/>
   </ellipse>
