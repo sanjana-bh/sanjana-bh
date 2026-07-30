@@ -21,20 +21,20 @@
   <br/>
   
   <!-- 📊 PROFILE BADGES -->
-  <a href="https://github.com/sanjana-bhardwaj">
-    <img src="https://komarev.com/ghpvc/?username=sanjana-bhardwaj&label=Profile%20Views&color=C75D74&style=flat-square&base=100" alt="Profile Views"/>
+  <a href="https://github.com/sanjana-bh">
+    <img src="https://komarev.com/ghpvc/?username=sanjana-bh&label=Profile%20Views&color=C75D74&style=flat-square&base=100" alt="Profile Views"/>
   </a>
   &nbsp;
-  <a href="https://github.com/sanjana-bhardwaj?tab=repositories">
-    <img src="https://img.shields.io/badge/dynamic/json?color=A8556E&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bhardwaj&style=flat-square&labelColor=0F172A" alt="Repositories"/>
+  <a href="https://github.com/sanjana-bh?tab=repositories">
+    <img src="https://img.shields.io/badge/dynamic/json?color=A8556E&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&style=flat-square&labelColor=0F172A" alt="Repositories"/>
   </a>
   &nbsp;
-  <a href="https://github.com/sanjana-bhardwaj?tab=followers">
-    <img src="https://img.shields.io/badge/dynamic/json?color=E6A4B4&label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bhardwaj&style=flat-square&labelColor=0F172A" alt="Followers"/>
+  <a href="https://github.com/sanjana-bha?tab=followers">
+    <img src="https://img.shields.io/badge/dynamic/json?color=E6A4B4&label=Followers&query=%24.followers&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fsanjana-bh&style=flat-square&labelColor=0F172A" alt="Followers"/>
   </a>
   &nbsp;
-  <a href="https://github.com/sanjana-bhardwaj">
-    <img src="https://img.shields.io/github/stars/sanjana-bhardwaj?affiliations=OWNER&label=Stars&style=flat-square&color=C75D74&labelColor=0F172A" alt="Stars"/>
+  <a href="https://github.com/sanjana-bh">
+    <img src="https://img.shields.io/github/stars/sanjana-bh?affiliations=OWNER&label=Stars&style=flat-square&color=C75D74&labelColor=0F172A" alt="Stars"/>
   </a>
   
 </div>
@@ -103,25 +103,25 @@ impactful technology.
 
 
 
-<div align="center"> <!-- GitHub Trophies --> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src="https://github-trophies.vercel.app/?username=sanjana-bhardwaj&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" width="100%"/> </a></div>
+<div align="center"> <!-- GitHub Trophies --> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src="https://github-trophies.vercel.app/?username=sanjana-bh&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" width="100%"/> </a></div>
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 📊 GITHUB ANALYTICS --><!-- ═══════════════════════════════════════════════════════════════════════════ --><img src="./assets/section-stats.svg" width="220"/>
 
 
 
-<div align="center"> <!-- GitHub Stats + Streak in ONE ROW --> <a href="https://github.com/sanjana-bhardwaj"> <img height="195" src="https://github-readme-stats-eight-theta.vercel.app/api?username=sanjana-bhardwaj&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=C75D74&icon_color=A8556E&text_color=F8FAFC&include_all_commits=true&count_private=true" alt="GitHub Stats"/> </a> &nbsp;&nbsp; <a href="https://github.com/sanjana-bhardwaj"> <img height="195" src="./assets/streak-stats.svg" alt="GitHub Streak"/> </a>
+<div align="center"> <!-- GitHub Stats + Streak in ONE ROW --> <a href="https://github.com/sanjana-bh"> <img height="195" src="https://github-readme-stats-eight-theta.vercel.app/api?username=sanjana-bh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=C75D74&icon_color=A8556E&text_color=F8FAFC&include_all_commits=true&count_private=true" alt="GitHub Stats"/> </a> &nbsp;&nbsp; <a href="https://github.com/sanjana-bh"> <img height="195" src="./assets/streak-stats.svg" alt="GitHub Streak"/> </a>
 
 
 
-<!-- 📊 REAL-TIME LANGUAGE USAGE WITH PROGRESS BARS --> <a href="https://github.com/sanjana-bhardwaj"> <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sanjana-bhardwaj&layout=normal&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=C75D74&text_color=F8FAFC&langs_count=8&card_width=400" alt="Top Languages" /> </a>
+<!-- 📊 REAL-TIME LANGUAGE USAGE WITH PROGRESS BARS --> <a href="https://github.com/sanjana-bh"> <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=sanjana-bh&layout=normal&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=C75D74&text_color=F8FAFC&langs_count=8&card_width=400" alt="Top Languages" /> </a>
 
 
 
-<!-- Activity Graph --> <a href="https://github.com/sanjana-bhardwaj"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjana-bhardwaj&bg_color=0F172A&color=C75D74&line=A8556E&point=E6A4B4&area=true&area_color=C75D74&hide_border=true&custom_title=📈%20Contribution%20Activity&v=2" width="95%" alt="Activity Graph"/> </a>
+<!-- Activity Graph --> <a href="https://github.com/sanjana-bh"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjana-bh&bg_color=0F172A&color=C75D74&line=A8556E&point=E6A4B4&area=true&area_color=C75D74&hide_border=true&custom_title=📈%20Contribution%20Activity&v=2" width="95%" alt="Activity Graph"/> </a>
 
 
 
-<!-- Additional Stats Cards --> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sanjana-bhardwaj&theme=tokyonight" width="95%" alt="Profile Details"/></div>
+<!-- Additional Stats Cards --> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sanjana-bh&theme=tokyonight" width="95%" alt="Profile Details"/></div>
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 🎮 CONTRIBUTION SHOWCASE --><!-- ═══════════════════════════════════════════════════════════════════════════ --><img src="./assets/section-game.svg" width="280"/>
 
@@ -141,17 +141,17 @@ impactful technology.
 <!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 🔥 CURRENTLY WORKING ON --><!-- ═══════════════════════════════════════════════════════════════════════════ --><div align="center">
 ⚡ Currently Building & Learning
 
-<a href="https://github.com/sanjana-bhardwaj"> <img src="https://img.shields.io/badge/📊_Data_Analytics-Insights_&_Visualization-C75D74?style=for-the-badge&labelColor=0F172A"/> </a> &nbsp; <a href="https://github.com/sanjana-bhardwaj"> <img src="https://img.shields.io/badge/⚛️_MERN_Stack-Full_Stack_Apps-A8556E?style=for-the-badge&labelColor=0F172A"/> </a> &nbsp; <a href="https://github.com/sanjana-bhardwaj"> <img src="https://img.shields.io/badge/💡_AI_&_ML-Smart_Solutions-E6A4B4?style=for-the-badge&labelColor=0F172A"/> </a></div>
+<a href="https://github.com/sanjana-bh"> <img src="https://img.shields.io/badge/📊_Data_Analytics-Insights_&_Visualization-C75D74?style=for-the-badge&labelColor=0F172A"/> </a> &nbsp; <a href="https://github.com/sanjana-bh"> <img src="https://img.shields.io/badge/⚛️_MERN_Stack-Full_Stack_Apps-A8556E?style=for-the-badge&labelColor=0F172A"/> </a> &nbsp; <a href="https://github.com/sanjana-bh"> <img src="https://img.shields.io/badge/💡_AI_&_ML-Smart_Solutions-E6A4B4?style=for-the-badge&labelColor=0F172A"/> </a></div>
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 🌐 CONNECT WITH ME --><!-- ═══════════════════════════════════════════════════════════════════════════ --><img src="./assets/section-connect.svg" width="160"/>
 
 
 
-<div align="center"><a href="https://github.com/sanjana-bhardwaj" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A" alt="GitHub"/> </a> &nbsp; <a href="https://linkedin.com/in/sanjana-bhardwaj" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A" alt="LinkedIn"/> </a> &nbsp; <a href="mailto:sanjana.bhardwaj@email.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email"/> </a> &nbsp; <a href="https://sanjana-bhardwaj.dev" target="_blank"> <img src="https://img.shields.io/badge/Portfolio-C75D74?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=0F172A" alt="Portfolio"/> </a></div>
+<div align="center"><a href="https://github.com/sanjana-bh" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A" alt="GitHub"/> </a> &nbsp; <a href="https://linkedin.com/in/sanjana-b-data-analyst" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A" alt="LinkedIn"/> </a> &nbsp; <a href="mailto:sanjana.codes.tech@gmail.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email"/> </a> &nbsp; <a href="https://sanjana-bhardwaj.dev" target="_blank"> <img src="https://img.shields.io/badge/Portfolio-C75D74?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=0F172A" alt="Portfolio"/> </a></div>
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 💡 RANDOM DEV QUOTE --><!-- ═══════════════════════════════════════════════════════════════════════════ --><div align="center">
 💭 Random Dev Quote
-<br/> <a href="https://github.com/sanjana-bhardwaj"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="60%"/> </a></div>
+<br/> <a href="https://github.com/sanjana-bh"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="60%"/> </a></div>
 <img src="./assets/divider.svg" width="100%"/>
 <!-- ═══════════════════════════════════════════════════════════════════════════ --><!-- 🌟 FOOTER --><!-- ═══════════════════════════════════════════════════════════════════════════ --><div align="center"> <img src="./assets/footer.svg" width="100%"/>
 
