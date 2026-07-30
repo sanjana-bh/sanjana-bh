@@ -20,14 +20,14 @@ jobs:
         run: |
           cp assets/streak-template.svg assets/streak-stats.svg
 
-          sed -i "s/{{TOTAL_CONTRIBUTIONS}}/307/g" assets/streak-stats.svg
-          sed -i "s/{{START_DATE}}/Jul 4, 2024/g" assets/streak-stats.svg
+          sed -i "s/{{TOTAL_CONTRIBUTIONS}}/1247/g" assets/streak-stats.svg
+          sed -i "s/{{START_DATE}}/Nov 5, 2024/g" assets/streak-stats.svg
           sed -i "s/{{END_DATE}}/$(date +'%b %d, %Y')/g" assets/streak-stats.svg
-          sed -i "s/{{CURRENT_STREAK}}/7/g" assets/streak-stats.svg
+          sed -i "s/{{CURRENT_STREAK}}/9/g" assets/streak-stats.svg
           sed -i "s/{{CURRENT_DATE}}/$(date +'%b %d, %Y')/g" assets/streak-stats.svg
-          sed -i "s/{{LONGEST_STREAK}}/12/g" assets/streak-stats.svg
-          sed -i "s/{{LONGEST_START}}/Jun 1, 2024/g" assets/streak-stats.svg
-          sed -i "s/{{LONGEST_END}}/Jun 12, 2024/g" assets/streak-stats.svg
+          sed -i "s/{{LONGEST_STREAK}}/67/g" assets/streak-stats.svg
+          sed -i "s/{{LONGEST_START}}/Nov 5, 2024/g" assets/streak-stats.svg
+          sed -i "s/{{LONGEST_END}}/Dec 31, 2024/g" assets/streak-stats.svg
 
       - name: Commit Changes
         run: |
