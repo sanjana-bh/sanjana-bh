@@ -18,6 +18,9 @@
       <stop offset='0%' stop-color='#FF2D95'>
         <animate attributeName='stop-color' values='#FF2D95;#FF79BF;#49C9EA;#FF2D95' dur='8s' repeatCount='indefinite'/>
       </stop>
+      <stop offset='50%' stop-color='#FF79BF'>
+        <animate attributeName='stop-color' values='#FF79BF;#49C9EA;#FF2D95;#FF79BF' dur='8s' repeatCount='indefinite'/>
+      </stop>
       <stop offset='100%' stop-color='#49C9EA'>
         <animate attributeName='stop-color' values='#49C9EA;#FF2D95;#FF79BF;#49C9EA' dur='8s' repeatCount='indefinite'/>
       </stop>
@@ -40,7 +43,7 @@
   <g clip-path='url(#outer_rectangle)'>
     <!-- Background -->
     <g style='isolation: isolate'>
-      <rect stroke='url(#primaryGrad)' fill='#09090F' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
+      <rect stroke='#262637' fill='#09090F' rx='4.5' x='0.5' y='0.5' width='494' height='194'/>
     </g>
 
     <!-- Divider Lines - Subtle -->
@@ -69,7 +72,7 @@
 
       <g transform='translate(82.5, 114)'>
         <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#6B7280' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>
-          Nov 5, 2024 - Jul 30, 2026
+          Nov 5, 2024 - Jul 31, 2026
         </text>
       </g>
     </g>
@@ -84,7 +87,7 @@
 
       <g transform='translate(247.5, 145)'>
         <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#6B7280' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
-          Jul 30, 2026
+          Jul 31, 2026
         </text>
       </g>
 
