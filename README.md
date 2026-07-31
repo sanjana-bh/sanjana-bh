@@ -228,7 +228,7 @@ impactful technology.
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  ⚡ Currently Building & Learning
+  <h4>⚡ Currently Building & Learning</h4>
 
   <a href="https://github.com/sanjana-bh">
     <img src="https://img.shields.io/badge/📊_Data_Analytics-Insights_&_Visualization-FF2D95?style=for-the-badge&labelColor=09090F"/>
