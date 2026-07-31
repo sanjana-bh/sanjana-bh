@@ -290,7 +290,7 @@ impactful technology.
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="./assets/footer.svg" width="100%"/>
+  <img src="./assets/footer.svg" width="120%"/>
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=80&section=footer"/>
 </div>
